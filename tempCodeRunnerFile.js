@@ -1,3 +1,4 @@
-} else {
-    console.log("You cannot watch adult content")
+//For Loop
+for(let i = 0; i <= 5; i++) {
+    console.log(i)
 }
