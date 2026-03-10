@@ -23,3 +23,6 @@ switch (day) {
     default:
         console.log("Invalid Day!")
 }
+
+//Ternary Operator
+let result = age >= 18 ? "adult" : "minor" 
