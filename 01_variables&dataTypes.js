@@ -2,7 +2,7 @@
 let a = 10
 console.log(a)
 
-//Data Types - Data types define the type of data a variable can hold.
+//Data Types - Data types define the type of value a variable can hold.
 
 //Primitive
 let name = "ayush"
