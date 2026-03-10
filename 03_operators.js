@@ -18,7 +18,7 @@ console.log("--b: ", --b)       //value first decremented then used
 //Assignment
 console.log("Assignment Operators")
 
-x = 5
+let x = 5
 console.log("x = ")
 
 x += 5
