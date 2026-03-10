@@ -8,5 +8,5 @@ console.log(typeof result)  //string
 let num = 10
 let str = String(num);
 
-console.log(str)   
-console.log(typeof str)  //string
+console.log(str)            //10
+console.log(typeof str)     //string
