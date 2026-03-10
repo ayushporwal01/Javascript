@@ -14,7 +14,6 @@ console.log("++a: ", ++a)       //value first incremented then used
 console.log("--b: ", --b)       //value first decremented then used
 
 //Assignment
-
 console.log("a = 5: ", a=5)
 console.log("a += 5: ", a+=5)
 console.log("a -= 5: ", a-=5)
