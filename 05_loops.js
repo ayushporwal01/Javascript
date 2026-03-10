@@ -6,6 +6,7 @@ for(let i = 1; i <= 5; i++) {
 //While Loop
 let i = 1
 while(i <= 5){
+    if(i == 3) break;
     console.log(i)
     i += 1;
 }
