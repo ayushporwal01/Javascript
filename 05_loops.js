@@ -9,3 +9,9 @@ while(i <= 5){
     console.log(i)
     i++;
 }
+
+//Do-while
+do {
+   console.log(i)
+}
+while(i <= 5)
