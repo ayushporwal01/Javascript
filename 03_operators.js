@@ -54,3 +54,14 @@ console.log("Logical Operators")
 console.log("a && b: ", a&&b)
 console.log("a || b: ", a||b)
 console.log("!a: ", !a)
+
+//Bitwise
+console.log("Logical Operators")
+
+console.log("a & b: ", a&b)
+console.log("a | b: ", a|b)
+console.log("~a: ", ~a)
+console.log("a ^ b: ", a^b)
+console.log("a << b: ", a<<b)
+console.log("a >> b: ", a>>b)
+console.log("a >>> b: ", a>>>b)
