@@ -35,7 +35,7 @@ for(let value of arr){
 }
 
 
-// //For In - Used to loop through object properties.
+//For In - Used to loop through object properties.
 let person = {
   name: "Rahul",
   age: 20
