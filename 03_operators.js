@@ -32,7 +32,7 @@ console.log("x /= 5: ")
 x %= 5
 console.log("x %= 5: ")
 
-//Assignment
+//Comparison
 console.log("a = 5: ", a=5)
 console.log("a += 5: ", a+=5)
 console.log("a -= 5: ", a-=5)
