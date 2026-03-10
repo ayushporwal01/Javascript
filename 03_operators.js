@@ -51,6 +51,6 @@ console.log("a <= 5: ", a<=b)
 //Logical
 console.log("Comparison Operators")
 
-console.log("a && b: ", a && b)
-console.log("a || b: ", a || b)
+console.log("a && b: ", a&&b)
+console.log("a || b: ", a||b)
 console.log("!a: ", !a)
