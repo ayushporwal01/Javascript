@@ -15,9 +15,12 @@ while(i <= 5){
 i = 1
 
 do {
-  i++
-  if(i == 3) continue
+  if(i == 3) {
+    i++
+    continue
+  }
   console.log(i)
+  i++
 }
 while(i <= 5)
 
