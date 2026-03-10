@@ -5,13 +5,13 @@ console.log(a)
 //Data Types - Data types define the type of value a variable can hold.
 
 //Primitive
-let name = "ayush"
-let age = 21
-let cgpa = 7.65
+let name = "ayush"   
+let age = 21            //Number
+let cgpa = 7.65         //Number
 let isStudent = true
-let x = undefined;
+let x;                  //undefined
 let data = null
-let bigNum = 12345678901234567890n;
+let bigNum = 12345678901234567890n;  //bigInt
 
 //Non-primitive
 
