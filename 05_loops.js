@@ -12,6 +12,7 @@ while(i <= 5){
 
 //Do-while
 do {
-   console.log(i)
+   console.log(i);
+   i++
 }
 while(i <= 5)
