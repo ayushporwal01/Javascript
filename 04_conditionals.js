@@ -28,7 +28,7 @@ switch (day) {
 let isAdult = age >= 18 ? "Adult" : "Minor"
 console.log(isAdult) 
 
-//Nullish Coalescing Operator - if first value is null or undefined then use second 
+//Nullish Coalescing Operator - returns rhs value if lhs value is null or undefined 
 let user = null
 
 let name = user ?? "Guest"
