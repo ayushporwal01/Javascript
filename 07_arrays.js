@@ -4,6 +4,7 @@ console.log(arr[1])
 
 arr[2] = false
 console.log(arr)
+
 console.log(arr.length)
 
 arr.push(30)        //add at end
@@ -17,3 +18,4 @@ console.log(arr)   //removes last
 
 arr.shift()
 console.log(arr)   //removes first 
+
