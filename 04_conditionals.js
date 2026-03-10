@@ -25,5 +25,5 @@ switch (day) {
 }
 
 //Ternary Operator
-let isAdult = age >= 18 ? "adult" : "minor"
+let isAdult = age >= 18 ? "You are an adult" : "You are a minor"
 console.log(isAdult) 
