@@ -25,4 +25,4 @@ switch (day) {
 }
 
 //Ternary Operator
-let result = age >= 18 ? "adult" : "minor" 
+let isAdult = age >= 18 ? "adult" : "minor" 
