@@ -1,4 +1,4 @@
-let age = 18
+let age = 21
 
 //If-Else
 if(age >= 18) {
