@@ -15,9 +15,9 @@ console.log("--b: ", --b)       //value first decremented then used
 
 //Assignment
 
-console.log("a = : ", a=5)
-console.log("a += b: ", a+=5)
-console.log("a * b: ", a-=5)
-console.log("a / b: ", a*=5)
-console.log("a % b: ", a/=b)
-console.log("a ** b: ", a%=b)
+console.log("a = 5: ", a=5)
+console.log("a += 5: ", a+=5)
+console.log("a -= 5: ", a-=5)
+console.log("a *= 5: ", a*=5)
+console.log("a /= 5: ", a/=b)
+console.log("a %= 5: ", a%=b)
