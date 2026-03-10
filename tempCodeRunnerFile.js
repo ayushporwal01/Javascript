@@ -1,4 +1,5 @@
-//For Loop
-for(let i = 0; i <= 5; i++) {
-    console.log(i)
-}
+do {
+//    console.log(i);
+//    i++
+// }
+// while(i <= 5)

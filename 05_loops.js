@@ -11,6 +11,8 @@ while(i <= 5){
 }
 
 //Do-while
+i = 1
+
 do {
    console.log(i);
    i++
