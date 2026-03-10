@@ -8,7 +8,7 @@ console.log("a * b: ", a*b)
 console.log("a / b: ", a/b)
 console.log("a % b: ", a%b)
 console.log("a ** b: ", a**b)
-console.log("a++: ", a++)
-console.log("b--: ", b--)
-console.log("++a: ", ++a)
-console.log("--b: ", --b)
+console.log("a++: ", a++)       //value used first then incremented
+console.log("b--: ", b--)       //value used first then decremented
+console.log("++a: ", ++a)       //value first incremented then used
+console.log("--b: ", --b)       //value first decremented then used
