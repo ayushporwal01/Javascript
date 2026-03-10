@@ -1,7 +1,7 @@
 //Implicit(Automatic)
 
 let result = "5" + 2
-console.log(result)  //#52
+console.log(typeof result)  //#string
 
 //Explicit(Manual)
 
