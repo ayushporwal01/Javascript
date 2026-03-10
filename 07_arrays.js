@@ -6,14 +6,14 @@ arr[2] = false
 console.log(arr)
 console.log(arr.length)
 
-arr.push(30)
+arr.push(30)        //add at end
 console.log(arr)
 
-arr.unshift(5)
-console.log(arr)   //
+arr.unshift(5)     //add at beginning
+console.log(arr)  
 
 arr.pop()
 console.log(arr)   //removes last
 
 arr.shift()
-console.log(arr)  //removes first 
+console.log(arr)   //removes first 
