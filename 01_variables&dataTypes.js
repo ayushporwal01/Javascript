@@ -1,4 +1,4 @@
-// Variable
+// Variable - A name given to a memory location where data is stored.
 let a = 10
 console.log(a)
 
