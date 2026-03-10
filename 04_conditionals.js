@@ -7,7 +7,7 @@ if(age >= 18) {
     console.log("You cannot watch adult content")
 }
 
-//Switch
+//Switch Case
 let day = 1
 
 switch (day) {
