@@ -26,7 +26,7 @@ for(let value of arr){
   console.log(value);
 }
 
-//For In
+//For In - Used to loop through object properties.
 let person = {
   name: "Rahul",
   age: 20
