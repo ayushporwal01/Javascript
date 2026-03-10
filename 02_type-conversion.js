@@ -8,5 +8,5 @@ console.log(result)  //#52
 let num = 10
 let str = String(num);
 
-console.log(num)
+console.log(str)
 console.log(typeof str)
