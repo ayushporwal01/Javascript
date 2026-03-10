@@ -27,3 +27,9 @@ switch (day) {
 //Ternary Operator
 let isAdult = age >= 18 ? "Adult" : "Minor"
 console.log(isAdult) 
+
+//Nullish Coalescing Operator
+let user = null
+
+let name = user ?? "Guest"
+console.log(name)
