@@ -1,7 +1,6 @@
-//If-Else
-
 let age = 18
 
+//If-Else
 if(age >= 18) {
    console.log("You can watch adult content")
 } else {
