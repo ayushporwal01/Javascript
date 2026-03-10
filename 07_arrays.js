@@ -15,12 +15,12 @@ console.log(arr.length)
 arr.push(30)        //add at end
 console.log(arr)
 
-arr.unshift(5)     //add at beginning
+arr.unshift(5)      //add at beginning
 console.log(arr)  
 
 arr.pop()
-console.log(arr)   //removes last
+console.log(arr)    //removes last
 
 arr.shift()
-console.log(arr)   //removes first 
+console.log(arr)    //removes first 
 
