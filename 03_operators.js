@@ -14,6 +14,25 @@ console.log("++a: ", ++a)       //value first incremented then used
 console.log("--b: ", --b)       //value first decremented then used
 
 //Assignment
+x = 5
+console.log("x = ")
+
+x += 5
+console.log("x += 5: ")
+
+x -= 5
+console.log("x -= 5: ")
+
+x *= 5
+console.log("x *= 5: ")
+
+x /= 5
+console.log("x /= 5: ")
+
+x %= 5
+console.log("x %= 5: ")
+
+//Assignment
 console.log("a = 5: ", a=5)
 console.log("a += 5: ", a+=5)
 console.log("a -= 5: ", a-=5)
