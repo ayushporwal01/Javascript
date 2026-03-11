@@ -7,5 +7,7 @@ console.log(doubled)
 
 //filter - Select only those elements that satisfies a given condition.
 
-const oddNums = nums.filter((e) => num * 2 == 0)
+const oddNums = nums.filter((num) => num % 2 == 1)
 console.log(oddNums)
+
+//reduce - 
