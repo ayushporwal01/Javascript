@@ -7,7 +7,7 @@ function greet(name = "Bhai") {
 greet("Ayush"); // Hello, Ayush!
 greet();        // Hello, Bhai!
 
-//Multiple
+//Multiple Default Parameters
 function describePeple(name = "Unknown", age = 0) {
     console.log(`${name} is ${age} years old.`)
 }
@@ -15,3 +15,5 @@ function describePeple(name = "Unknown", age = 0) {
 describePeple("John", 25) //John is 25 years old
 describePeple("Rahul") //Rahul is 0 years old
 describePeple() //Unknown is 0 years old
+
+//Default Parameter With Expressions
