@@ -17,3 +17,9 @@ describePeple("Rahul") //Rahul is 0 years old
 describePeple() //Unknown is 0 years old
 
 //Default Parameter With Expressions
+function randomNumber(max = 100) {
+    return Math.floor(Math.random() * max)
+}
+
+console.log(randomNumber())   //random number b/w 0 and 99
+console.log(randomNumber(50)) //random number b/w 0 and 49
