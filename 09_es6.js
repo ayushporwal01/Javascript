@@ -12,3 +12,13 @@ console.log(firstNum)
 console.log(thirdNum)
 
 //Object Destructuring
+let person = {
+    name: "Ayush",
+    age: 21,
+    city: "Indore"
+}
+
+const {firstName, myAge, myCity} = person
+
+console.log(firstName)
+console.log(myAge)
