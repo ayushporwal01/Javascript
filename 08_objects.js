@@ -39,7 +39,7 @@ student.greet()
 let empoloyee = {
     name: "Andrew",
     address: {
-        city: "New York"
+        city: "New York",
         country: "United States"
     }
 }
