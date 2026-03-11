@@ -1,7 +1,3 @@
-//Template Literals - embed variables in strings
-let name = "Harry"
-console.log(`Hello ${name}`)
-
 //Destructuring - extract values and assign them in single statement
 
 //Array Destructuring
@@ -12,12 +8,12 @@ console.log(firstNum)
 console.log(thirdNum)
 
 //Object Destructuring
-let person = {
+const employee = {
     name: "Ayush",
     age: 21,
 }
 
-const {firstName, myAge} = person
+const {name, age} = person
 
 console.log(firstName)
 console.log(myAge)
