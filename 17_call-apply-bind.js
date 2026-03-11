@@ -22,3 +22,7 @@ function greet(age, city) {
 }
 
 greet.apply(person2, [21, "Delhi"]);
+
+
+//bind - It does NOT run the function immediately.
+//It returns a new function with this fixed.
