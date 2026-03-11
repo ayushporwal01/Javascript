@@ -24,3 +24,11 @@ console.log(person)
 for(let key in person) {
     console.log(key, person[key])
 }
+
+//Methods
+let student = {
+    name: "Rahul",
+    greet: function() {
+        console.log("Hello " + this.name)
+    }
+}
