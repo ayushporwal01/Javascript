@@ -27,4 +27,4 @@ console.log(arr)    //removes first
 
 //Loop Through Array
 let arr2 = [1, 3, 5, 7, 9]
-console.log(arr2.join(" ")); //join converts array into a string with spaces b/w elements
+console.log(arr2.join(" ")); //converts array into a string with spaces b/w elements
