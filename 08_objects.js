@@ -28,7 +28,9 @@ for(let key in person) {
 //Methods
 let student = {
     name: "Rahul",
-    greet: function() {
+    greet() {
         console.log("Hello " + this.name)
     }
 }
+
+student.greet()
