@@ -1,42 +1,25 @@
-//For Loop
-for(let i = 1; i <= 5; i++) {
-    console.log(i)
-}
+let arr = [10, "Hello", true]
+// console.log(arr)
 
-//While Loop
-let i = 1
-while(i <= 5){
-    if(i == 3) break
-    console.log(i)
-    i += 1
-}
+// //Accessing
+// console.log(arr[1])
 
-//Do-while
-i = 1
+// //Updating
+// arr[2] = false
+// console.log(arr)
 
-do {
-  if(i == 3) {
-    i++
-    continue
-  }
-  console.log(i)
-  i++
-}
-while(i <= 5)
+// //Length
+// console.log(arr.length)
 
-//For Of - Used to loop through arrays or iterable values.
-let arr = [10, 20, 30]
+// //Methods
+// arr.push(30)        //add at end
+// console.log(arr)
 
-for(let value of arr){
-  console.log(value)
-}
+// arr.unshift(5)      //add at beginning
+// console.log(arr)  
 
-// //For In - Used to loop through object properties.
-let person = {
-  name: "Rahul",
-  age: 20
-};
+// arr.pop()
+// console.log(arr)    //removes last
 
-for(let key in person){
-  console.log(key, person[key])
-}
+// arr.shift()
+// console.log(arr)    //removes first 

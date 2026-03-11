@@ -24,3 +24,10 @@ console.log(arr)    //removes last
 arr.shift()
 console.log(arr)    //removes first 
 
+
+//Loop Through Array
+let arr2 = [1, 3, 5, 7, 9]
+
+for(let value of arr2) {
+    console.log(arr2.join(" "));
+}
