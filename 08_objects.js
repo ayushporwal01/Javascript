@@ -19,3 +19,8 @@ console.log(person)
 //Delete
 delete person.city
 console.log(person)
+
+//Loop Through an Object
+for(let key in person) {
+    console.log(key, person[key])
+}
