@@ -8,12 +8,12 @@ console.log(firstNum)
 console.log(thirdNum)
 
 //Object Destructuring
-const employee = {
+const person = {
     name: "Ayush",
     age: 21,
 }
 
 const {name, age} = person
 
-console.log(firstName)
-console.log(myAge)
+console.log(name)
+console.log(age)
