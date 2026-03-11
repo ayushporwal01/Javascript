@@ -43,3 +43,5 @@ let empoloyee = {
         country: "United States"
     }
 }
+
+console.log(empoloyee.address.country)
