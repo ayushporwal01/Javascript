@@ -13,3 +13,4 @@ console.log(oddNums)
 //reduce - reduce the entire array to one single value.
 
 const sum = nums.reduce((acc, num) => acc + num, 0) 
+console.log(sum)
