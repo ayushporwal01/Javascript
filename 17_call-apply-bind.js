@@ -17,11 +17,11 @@ const person2 = {
   name: "Rahul"
 };
 
-function greet(age, city) {
+function greet2(age, city) {
   console.log(this.name + " is " + age + " from " + city);
 }
 
-greet.apply(person2, [21, "Delhi"]);
+greet2.apply(person2, [21, "Delhi"]);
 
 
 //bind - It does NOT run the function immediately.
@@ -31,10 +31,10 @@ const person3 = {
   name: "Rahul"
 };
 
-function greet() {
+function greet3() {
   console.log("Hello " + this.name);
 }
 
-const greetPerson = greet.bind(person3);
+const greetPerson = greet3.bind(person3);
 
 greetPerson();
