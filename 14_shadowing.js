@@ -1,7 +1,6 @@
 /*Shadowing - when an inner scope variable has the same name as an outer scope variable. 
 The inner variable temporarily hides the outer variable inside its scope.*/
 
-
 let a = 10
 
 function x() {
@@ -10,3 +9,14 @@ function x() {
 }
 
 console.log(a) //10
+
+
+//Illegal Shadowing - violating shadowing rules
+
+//1. Shadowing a let or const in the same scope
+//2. onst in an inner block is allowed, but redeclaring in the same block is illegal
+//3. Shadowing a function parameter using let or const
+
+// function foo(c) {
+//     let c = 5; 
+// }
