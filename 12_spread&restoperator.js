@@ -22,5 +22,5 @@ console.log(rest)
 
 //Objects
 const {name, ...others} = {name: "Kazuya", age: 21, city: "NYC"}
-console.log(first)
-console.log(rest)
+console.log(name)
+console.log(others)
