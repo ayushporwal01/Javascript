@@ -18,5 +18,5 @@ console.log(a) //10
 //3. Shadowing a function parameter using let or const
 
 // function foo(c) {
-//     let c = 5; 
+//     let c = 5; //SyntaxError: Identifier 'c' has already been declared
 // }
