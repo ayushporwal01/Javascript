@@ -14,4 +14,13 @@ console.log(a) //20
 
 //Closure - A function along with its lexical scope forms a closure.
 
-
+function x() {
+    let a  = 3
+    
+    function y() {
+        console.log(a)
+    }
+    return y;
+}
+const z = x()
+z();
