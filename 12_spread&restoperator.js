@@ -14,3 +14,13 @@ console.log(person2)
 
 
 //Rest Operator(...) - used to collect multiple elements into a single array or object.
+
+//Arrays
+const [first, ...rest] = [1, 2, 3, 4, 5]
+console.log(first)
+console.log(rest)
+
+//Objects
+const {name, ...others} = {name: "Kazuya", age: 21, city: "NYC"}
+console.log(first)
+console.log(rest)
