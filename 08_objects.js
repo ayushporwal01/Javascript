@@ -16,3 +16,6 @@ person.country = "Japan"
 person.city = "Tokyo"
 console.log(person)
 
+//Deleting
+delete person.city
+console.log(person)
