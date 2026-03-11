@@ -1,0 +1,1 @@
+//Default Parameter - A value that a function uses if no argument is provided during the function call.
