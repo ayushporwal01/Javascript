@@ -1,4 +1,4 @@
-//Destructuring - extract values and assign them in single statement
+//Destructuring - Extracting values and assigning them in single statement
 
 //Array Destructuring
 const numbers = [10, 20, 30]
