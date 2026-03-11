@@ -3,3 +3,7 @@ let name = "Harry"
 console.log(`Hello ${name}`)
 
 //Destructuring - extract values and assign them in single statement
+
+//Array Destructuring
+const numbers = [10, 20, 30]
+const [firstNum, secondNum, thirdNum] = numbers
