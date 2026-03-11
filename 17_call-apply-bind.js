@@ -26,3 +26,15 @@ greet.apply(person2, [21, "Delhi"]);
 
 //bind - It does NOT run the function immediately.
 //It returns a new function with this fixed.
+
+const person3 = {
+  name: "Rahul"
+};
+
+function greet() {
+  console.log("Hello " + this.name);
+}
+
+const greetPerson = greet.bind(person3);
+
+greetPerson();
