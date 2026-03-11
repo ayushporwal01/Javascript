@@ -34,3 +34,12 @@ let student = {
 }
 
 student.greet()
+
+//Nested Objects
+let empoloyee = {
+    name: "Andrew",
+    address: {
+        city: "New York"
+        country: "United States"
+    }
+}
