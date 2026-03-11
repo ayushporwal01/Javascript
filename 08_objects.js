@@ -6,16 +6,16 @@ let person = {
 
 console.log(person)
 
-//Accessing
+//Access
 console.log(person.name)
 console.log(person.age)
 console.log(person["city"])
 
-//Adding & Updating
+//Add & Update
 person.country = "Japan"
 person.city = "Tokyo"
 console.log(person)
 
-//Deleting
+//Delete
 delete person.city
 console.log(person)
