@@ -10,4 +10,6 @@ console.log(doubled)
 const oddNums = nums.filter((num) => num % 2 == 1)
 console.log(oddNums)
 
-//reduce - 
+//reduce - reduce the entire array to one single value.
+
+const sum = nums.reduce((acc, num) => acc + num, 0) 
