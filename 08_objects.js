@@ -4,8 +4,9 @@ let person = {
     city: "Indore"
 }
 
-//Accessing
 console.log(person)
+
+//Accessing
 console.log(person.name)
 console.log(person.age)
 console.log(person["city"])
