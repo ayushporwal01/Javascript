@@ -5,4 +5,4 @@ function greet(name = "Bhai") {
 }
 
 greet("Ayush"); // Hello, Ayush!
-greet();        // Hello, Guest!
+greet();        // Hello, Bhai!
