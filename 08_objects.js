@@ -6,16 +6,16 @@ let person = {
 
 console.log(person)
 
-//Accessing Properties
+//Accessing
 console.log(person.name)
 console.log(person.age)
 console.log(person["city"])
 
-//Adding & Updating Properties
+//Adding & Updating
 person.country = "Japan"
 person.city = "Tokyo"
 console.log(person)
 
-//Deleting Properties
+//Deleting
 delete person.city
 console.log(person)
