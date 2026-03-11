@@ -5,7 +5,7 @@ const nums = [1, 2, 3, 4, 5]
 const doubled = nums.map(num => num * 2)
 console.log(doubled)
 
-//filter - Select only those elements that satisfies a given condition.
+//filter - Selects only those elements that satisfies a given condition.
 
 const oddNums = nums.filter((num) => num % 2 == 1)
 console.log(oddNums)
