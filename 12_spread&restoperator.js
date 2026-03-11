@@ -9,3 +9,5 @@ console.log(nums2)
 //Objects
 const person = {name: "Ayush", age: 21}
 const person2 = {...person, city: "Miami"}
+
+console.log(person2)
