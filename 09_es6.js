@@ -7,3 +7,8 @@ console.log(`Hello ${name}`)
 //Array Destructuring
 const numbers = [10, 20, 30]
 const [firstNum, secondNum, thirdNum] = numbers
+
+console.log(firstNum)
+console.log(thirdNum)
+
+//Object Destructuring
