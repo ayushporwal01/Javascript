@@ -1,4 +1,4 @@
-//call - invokes the function immediately and lets you set the value of this. 
+//call - Invokes the function immediately and lets you set the value of this. 
 
 const person = {
   name: "Rahul"
@@ -9,3 +9,6 @@ function greet(age) {
 }
 
 greet.call(person, 21);
+
+
+//apply - Almost the same as call(), but it passes arguments as an array.
