@@ -15,10 +15,9 @@ console.log(thirdNum)
 let person = {
     name: "Ayush",
     age: 21,
-    city: "Indore"
 }
 
-const {firstName, myAge, myCity} = person
+const {firstName, myAge} = person
 
 console.log(firstName)
 console.log(myAge)
