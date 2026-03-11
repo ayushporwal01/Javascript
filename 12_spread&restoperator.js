@@ -11,3 +11,6 @@ const person = {name: "Ayush", age: 21}
 const person2 = {...person, city: "Miami"}
 
 console.log(person2)
+
+
+//Rest Operator(...) - used to collect multiple elements into a single array or object.
