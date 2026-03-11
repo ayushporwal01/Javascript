@@ -33,7 +33,6 @@ greet2.apply(person2, [21, "Delhi"]);
 //Returns a new function
 //You call it later
 
-
 const person3 = {
   name: "Rahul"
 };
