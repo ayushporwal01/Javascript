@@ -18,8 +18,6 @@ greet.call(person, 21);
 
 
 //2. apply - Invokes a func with a specified this values & arguments passed as an array
-//Runs Immediately
-//Arguments are passed as an array
 
 const person2 = {
   name: "Rahul"
