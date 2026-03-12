@@ -4,6 +4,7 @@
 //1. call - Invokes a func with a specified this values & arguments passed individually
 //Runs Immediately
 //Arguments are passed individually
+//Returns Nothing
 
 const person = {
   name: "Rahul"
