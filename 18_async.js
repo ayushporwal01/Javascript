@@ -31,9 +31,19 @@ promise
 //async-await is just a syntactic sugar over promises.
 
 async function getData() {
-  const response = await fetch("https://api.github.com/users/ayushporwal01");
-  const data = await response.json();
-  console.log(data);
+  try {
+    const response = await fetch("https://api.github.com/users/ayushporwal01");
+
+    if (!response.ok) {
+      throw new Error("Request failed with status " + response.status);
+    }
+
+    const data = await response.json();
+    console.log(data);
+
+  } catch (error) {
+    console.log("Error:", error.message);
+  }
 }
 
 getData();
