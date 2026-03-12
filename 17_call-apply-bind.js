@@ -1,7 +1,7 @@
 //call, apply, bind 
 //They are used to control the value of "this" when calling functions.
 
-//1. call - Invokes a func with a specified this values & arguments passed individually
+//1. call - Invokes a func with a specified this value & arguments passed individually
 //Runs Immediately
 //Arguments are passed individually
 //Returns Nothing
@@ -17,7 +17,7 @@ function greet(age) {
 greet.call(person, 21);
 
 
-//2. apply - Invokes a func with a specified this values & arguments passed as an array
+//2. apply - Invokes a func with a specified this value & arguments passed as an array
 
 const person2 = {
   name: "Rahul"
@@ -30,8 +30,7 @@ function greet2(age, city) {
 greet2.apply(person2, [21, "Delhi"]);
 
 
-//3. bind - Returns a new func with a specified this values & arguments passed as an array
-//It returns a new function with - this fixed.
+//3. bind - Returns a new func with a specified this value//It returns a new function with - this fixed.
 //Doesn't run immediately
 //Returns a new function
 //You call it later
