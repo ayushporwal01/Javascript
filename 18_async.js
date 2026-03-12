@@ -28,3 +28,11 @@ promise
 //async - Adding async before a function declaration makes it return a promise automatically.
 //await - It pauses the execution of the async function until a promise is resolved or rejected.
 //async-await is just a syntactic sugar over promises.
+
+async function getData() {
+  const response = await fetch("https://api.github.com/users/ayushporwal01");
+  const data = await response.json();
+  console.log(data);
+}
+
+getData();
