@@ -5,3 +5,7 @@ setTimeout(() => {
 }, 2000);
 
 console.log("Start");
+
+
+//Promises - An object that represents the eventual completion or failure of an async operation.
+
