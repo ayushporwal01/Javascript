@@ -1,4 +1,4 @@
-//Callbacks - A func passed into another func as an argument.
+//Callbacks - A func passed into another func as an argument to run later.
 
 setTimeout(() => {
   console.log("Task finished");
