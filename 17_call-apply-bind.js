@@ -17,7 +17,7 @@ function greet(age) {
 greet.call(person, 21);
 
 
-//2. apply - Invokes a func with a specified this value & arguments passed as an array
+//2. apply - Invokes a func with a specified this value allowing arguments to be present & the func to be called later.
 
 const person2 = {
   name: "Rahul"
@@ -30,7 +30,7 @@ function greet2(age, city) {
 greet2.apply(person2, [21, "Delhi"]);
 
 
-//3. bind - Returns a new func with a specified this value//It returns a new function with - this fixed.
+//3. bind - Returns a new function with a fixed this context that can be called later.
 //Doesn't run immediately
 //Returns a new function
 //You call it later
