@@ -8,6 +8,7 @@ console.log("Start");
 
 
 //Promises - An object that represents the eventual completion or failure of an async operation.
+//States: pending, fullfilled, rejected
 const promise = new Promise((resolve, reject) => {
   let success = false;
 
