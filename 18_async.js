@@ -23,3 +23,8 @@ const promise = new Promise((resolve, reject) => {
 promise
   .then(data => console.log(data))
   .catch(error => console.log(error));
+
+//Async-Await - keywords used to handle async tasks.
+//async - Adding async before a function declaration makes it return a promise automatically.
+//await - It pauses the execution of the async function until a promise is resolved or rejected.
+//async-await is a syntactic sugar over promises.
