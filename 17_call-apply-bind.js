@@ -1,4 +1,7 @@
-//call - Invokes the function immediately and lets you set the value of this. 
+//call, apply, bind 
+//They are used to control the value of "this" when calling functions.
+
+//1. call
 //Runs Immediately
 //Arguments are passed separately
 
@@ -13,7 +16,8 @@ function greet(age) {
 greet.call(person, 21);
 
 
-//apply - Almost the same as call(), but it passes arguments as an array.
+//2. apply
+//Runs Immediately
 //Arguments are passed as an array
 
 const person2 = {
@@ -27,7 +31,7 @@ function greet2(age, city) {
 greet2.apply(person2, [21, "Delhi"]);
 
 
-//bind - It does NOT run the function immediately.
+//3. bind
 //It returns a new function with - this fixed.
 //Doesn't run immediately
 //Returns a new function
