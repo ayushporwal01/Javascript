@@ -30,7 +30,7 @@ function greet2(age, city) {
 greet2.apply(person2, [21, "Delhi"]);
 
 
-//3. bind
+//3. bind - Returns a new func with a specified this values & arguments passed as an array
 //It returns a new function with - this fixed.
 //Doesn't run immediately
 //Returns a new function
