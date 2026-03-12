@@ -17,7 +17,7 @@ function greet(age) {
 greet.call(person, 21);
 
 
-//2. apply - Invokes a func with a specified this value allowing arguments to be present & the func to be called later.
+//2. apply - Invokes a func with a specified this value and arguments passed as an array.
 
 const person2 = {
   name: "Rahul"
