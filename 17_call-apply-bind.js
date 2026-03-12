@@ -1,7 +1,7 @@
 //call, apply, bind 
 //They are used to control the value of "this" when calling functions.
 
-//1. call - Invokes a func witha specified this values & arguments passed individually
+//1. call - Invokes a func with a specified this values & arguments passed individually
 //Runs Immediately
 //Arguments are passed individually
 
