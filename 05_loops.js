@@ -39,7 +39,7 @@ const games = [
   },
   {
     genre: "Choice-Based",
-    titles: ["Resident Evil Requiem", "Visage", "Outlast Trials", "Pacify"]
+    titles: ["Life Is Strange", "Detroit Become Human", "The Walking Dead"]
   }
 ];
 
