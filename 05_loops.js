@@ -28,6 +28,21 @@ while(i <= 5)
 
 
 //For Each - Used to loop each element of an array and execute a func for every item.
+const games = [
+  {
+    genre: "Story",
+    titles: ["Red Dead Redemption 2", "Ghost of Tsushima", "Witcher 3", "The Last of Us Part I"]
+  },
+  {
+    genre: "Horror",
+    titles: ["Resident Evil Requiem", "Visage", "Outlast Trials", "Pacify"]
+  },
+  {
+    genre: "Choice-Based",
+    titles: ["Resident Evil Requiem", "Visage", "Outlast Trials", "Pacify"]
+  }
+];
+
 
 //For Of - Used to loop through arrays or iterable values.
 let arr = [10, 20, 30]
