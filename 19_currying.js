@@ -1,4 +1,5 @@
-//Currying is the process of transforming a function that takes multiple arguments into a sequence of functions, each taking one argument at a time.
+/*Currying is the process of transforming a function that takes multiple arguments into a 
+sequence of functions, each taking one argument at a time.*/
 
 function add(a) {
     return function(b) {
