@@ -43,6 +43,16 @@ const games = [
   }
 ];
 
+const horrorGames = games
+.filter(g => g.genre == "Horror")
+.flatMap(g => g.titles)
+
+console.log(horrorGames)
+
+horrorGames.forEach(game => {
+  console.log("- " + game);
+});
+
 
 //For Of - Used to loop through arrays or iterable values.
 let arr = [10, 20, 30]
