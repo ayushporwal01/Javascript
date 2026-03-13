@@ -27,6 +27,8 @@ do {
 while(i <= 5)
 
 
+//For Each - Used to loop each element of an array and execute a func for every item.
+
 //For Of - Used to loop through arrays or iterable values.
 let arr = [10, 20, 30]
 
