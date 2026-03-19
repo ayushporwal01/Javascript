@@ -5,3 +5,7 @@
     let message = "Hello, world!";
     console.log(message);
 })();
+
+//Used to avoid polluting global scope.
+//Encapsulate variables and logic.
+//Useful in modules, libararies or temporary code.
