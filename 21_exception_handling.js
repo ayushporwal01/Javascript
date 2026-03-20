@@ -24,6 +24,7 @@ try {
   console.error("Error:", err.message);
 }
 
+//3. Exception Handling with async/await
 async function fetchData() {
   try {
     let response = await fetch("https://api.github.com/users/ayushporwal01");
