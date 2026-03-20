@@ -1,6 +1,7 @@
 //Exception Handling - handling errors
 
 //1. try-catch
+
 try {
   // Code that might throw an error
   let result = riskyOperation();
