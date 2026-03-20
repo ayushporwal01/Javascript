@@ -26,7 +26,7 @@ try {
 
 async function fetchData() {
   try {
-    let response = await fetch("https://api.example.com/data");
+    let response = await fetch("https://api.github.com/users/ayushporwal01");
     let data = await response.json();
     console.log(data);
   } catch (error) {
