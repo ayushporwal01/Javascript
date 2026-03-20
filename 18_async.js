@@ -26,7 +26,7 @@ promise
   .catch(error => console.log(error));
 
 //Async-Await - keywords used to handle async tasks.
-//async - async before a function declaration makes it return a promise automatically.
+//async - async keyword before a function declaration makes it return a promise automatically.
 //await - Pauses the execution of the async function until a promise is resolved or rejected.
 //async-await is just a syntactic sugar over promises.
 
