@@ -1,0 +1,2 @@
+//alert, prompt and confirm are functions that interact with the user via dialog box in browser window.
+//Part Of Web API's
