@@ -9,3 +9,5 @@ try {
 } finally {
     console.log("This always runs");
 }
+
+//2. Throwing Manual Exceptions
