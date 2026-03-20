@@ -9,3 +9,10 @@ let name = prompt("Enter Your Name: ")
 console.log("Hello, " + name)
 
 //confirm - Asks the user to confirm an action(Yes/No).
+let isAdult = confirm("Are you an adult?")
+
+if(isAdult) {
+   console.log("You can watch Dhurandhar 2")
+} else {
+    console.log("You cannot watch Dhurandhar 2")
+}
