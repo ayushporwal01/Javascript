@@ -5,4 +5,5 @@
 alert("Hello World!")
 
 //prompt - Asks the user for input.
-prompt("Enter Your Name: ")
+let name = prompt("Enter Your Name: ")
+console.log("Hello, " + name)
