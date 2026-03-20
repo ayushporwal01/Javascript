@@ -23,3 +23,13 @@ try {
 } catch (err) {
   console.error("Error:", err.message);
 }
+
+async function fetchData() {
+  try {
+    let response = await fetch("https://api.example.com/data");
+    let data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error("Failed to fetch data:", error.message);
+  }
+}
