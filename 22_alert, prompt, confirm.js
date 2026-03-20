@@ -3,3 +3,6 @@
 
 //alert - Shows a message to the user
 alert("Hello World!")
+
+//prompt - Asks the user for input.
+prompt("Enter Your Name: ")
