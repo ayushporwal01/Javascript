@@ -2,3 +2,4 @@
 //Part Of Web API's
 
 //alert - Shows a message to the user
+alert("Hello World!")
