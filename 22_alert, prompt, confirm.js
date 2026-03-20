@@ -7,3 +7,5 @@ alert("Hello World!")
 //prompt - Asks the user for input.
 let name = prompt("Enter Your Name: ")
 console.log("Hello, " + name)
+
+//confirm - Asks the user to confirm an action(Yes/No).
