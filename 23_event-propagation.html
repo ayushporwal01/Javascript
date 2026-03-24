@@ -68,6 +68,10 @@
             e.stopPropagation()
         }, false)
         
+        const div = document.querySelector('p')
+        div.addEventListener('click', (e) => {
+            console.log("p clicked!")
+        })
         // document.querySelector("form").addEventListener('click', (e) => {
         //     e.stopPropagation()
         // }, false)
