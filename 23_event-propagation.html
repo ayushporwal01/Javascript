@@ -17,5 +17,11 @@
             <p onclick="alert('p')">P</p>
         </div>
     </form>
+
+    <script>
+        document.getElementsByTagName("form").addEventListener('click', (e) => {
+           console.log('Form Clicked!')
+        }, true)
+    </script>
 </body>
 </html>
