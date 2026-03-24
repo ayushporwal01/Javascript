@@ -63,15 +63,10 @@
         // }, false)
       
         //Stop Immediate Propagation
-        document.querySelector("form").addEventListener('click', (e) => {
-            console.log('Form capturing');
-        }, true)
-        document.querySelector("div").addEventListener('click', (e) => {
-            console.log('Div capturing');
-        }, true)
+      
         document.querySelector("p").addEventListener('click', (e) => {
             e.stopPropagation()
-        }, true)
+        }, false)
         
         // document.querySelector("form").addEventListener('click', (e) => {
         //     e.stopPropagation()
