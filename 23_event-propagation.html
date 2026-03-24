@@ -53,7 +53,7 @@
         }, true)
         
         document.querySelector("form").addEventListener('click', (e) => {
-            e.stopPropagation
+            e.stopPropagation()
         }, false)
         document.querySelector("div").addEventListener('click', (e) => {
             console.log('Div bubbling');
