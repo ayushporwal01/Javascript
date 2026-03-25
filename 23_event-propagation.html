@@ -42,7 +42,7 @@
         //all its current and future child elements
 
         formEle.addEventListener('click', (e) => {
-            
+
         })
 
 
@@ -61,15 +61,15 @@
         //Methods - stops the events from bubbling or capturing the DOM tree.
 
         //1. Stop Propagation - other event listeners on the same element will still run.
-        formEle.addEventListener('click', (e) => {
-            console.log('Form capturing');
-        }, true)
-        divEle.addEventListener('click', (e) => {
-            console.log('Div capturing');
-        }, true)
-        paraEle.addEventListener('click', (e) => {
-            e.stopPropagation()
-        }, true)
+        // formEle.addEventListener('click', (e) => {
+        //     console.log('Form capturing');
+        // }, true)
+        // divEle.addEventListener('click', (e) => {
+        //     console.log('Div capturing');
+        // }, true)
+        // paraEle.addEventListener('click', (e) => {
+        //     e.stopPropagation()
+        // }, true)
         
         // formEle.addEventListener('click', (e) => {
         //     e.stopPropagation()
