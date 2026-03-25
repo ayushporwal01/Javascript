@@ -1,7 +1,7 @@
 //map - Transforms every element of an array.
 
 const nums = [1, 2, 3, 4, 5]
-const name = "leon"
+const name = "leon.s.kennedy"
 
 const doubled = nums.map(num => num * 2)
 console.log(doubled)
