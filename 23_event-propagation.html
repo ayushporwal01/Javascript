@@ -58,10 +58,10 @@
         //Methods - stops the events from bubbling or capturing the DOM tree.
 
         //1. Stop Propagation - other event listeners on the same element will still run.
-        document.querySelector("form").addEventListener('click', (e) => {
+        formEle.addEventListener('click', (e) => {
             console.log('Form capturing');
         }, true)
-        document.querySelector("div").addEventListener('click', (e) => {
+        divEle.addEventListener('click', (e) => {
             console.log('Div capturing');
         }, true)
         document.querySelector("p").addEventListener('click', (e) => {
