@@ -42,7 +42,7 @@ console.log(splitted)
 console.log(name)
 
 //join - Divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array. 
-const joined = name.join("-") 
+const joined = name.split("").join("-") 
 console.log(joined)
 console.log(name)
 
