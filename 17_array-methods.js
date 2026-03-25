@@ -45,5 +45,5 @@ console.log(name)
 //join - Creates and returns a new string by concatenating all elements of an array.
 const joined = name2.split("").join(" ")
 console.log(joined)
-console.log(str)
+console.log(name2)
 
