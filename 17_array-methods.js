@@ -18,5 +18,5 @@ console.log(sum)
 //reduce - reduce the entire array to one single value.
 
 const ele = nums.find(x => x > 2) 
-console.log(sum)
+console.log(ele)
 
