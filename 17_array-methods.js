@@ -15,12 +15,12 @@ console.log(oddNums)
 const sum = nums.reduce((acc, num) => acc + num, 0) 
 console.log(sum)
 
-//find - returns the first element that matches the condition
+//find - returns the first element that satisfies the condition
 
 const ele = nums.find(x => x > 2) 
 console.log(ele)
 
-//findIndex - returns the index of the specified element
+//findIndex - returns the first index of the element that satisfies the condition.
 
 const index = nums.findIndex(x => x == 2) 
 console.log(ele)
