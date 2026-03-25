@@ -2,7 +2,7 @@
 
 const nums = [1, 2, 3, 4, 5]
 const name = "leon.s.kennedy"
-const str = "graceashcroft"
+const name2 = "graceashcroft"
 
 const doubled = nums.map(num => num * 2)
 console.log(doubled)
