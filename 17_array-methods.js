@@ -31,6 +31,7 @@ const extracted = name.slice(0, -1)
 console.log(extracted)
 
 //splice - Returns an array with extracted elements within the specified range by modifying the original array.
-const splitted = name.split(0, -1) 
-console.log(splitted)
+const spliced = name.split(0, -1) 
+console.log(spliced)
+console.log()
 
