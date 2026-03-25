@@ -41,7 +41,7 @@
         //     console.log('P bubbling');
         // }, false)
       
-        //Stop Propagation
+        //Stop Propagation - other events on the same element will still run.
         document.querySelector("form").addEventListener('click', (e) => {
             console.log('Form capturing');
         }, true)
@@ -63,15 +63,15 @@
         // }, false)
       
         //Stop Immediate Propagation
-        const para = document.querySelector('p')
+        // const para = document.querySelector('p')
       
-        para.addEventListener('click', (e) => {
-            e.stopImmediatePropagation()
-        }, true)
+        // para.addEventListener('click', (e) => {
+        //     e.stopImmediatePropagation()
+        // }, true)
         
-        para.addEventListener('click', (e) => {
-            console.log("p clicked!")
-        })
+        // para.addEventListener('click', (e) => {
+        //     console.log("p clicked!")
+        // })
     </script>
 </body>
 </html>
