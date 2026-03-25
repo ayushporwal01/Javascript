@@ -22,6 +22,6 @@ console.log(ele)
 
 //findIndex - returns the index of the specified element
 
-const ele = nums.find(x => x > 2) 
+const index = nums.find(x => x > 2) 
 console.log(ele)
 
