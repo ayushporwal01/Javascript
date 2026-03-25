@@ -43,6 +43,8 @@
         //     console.log('P bubbling');
         // }, false)
       
+
+        //Methods - stops the events from bubbling or capturing the DOM tree.
         //Stop Propagation - other event listeners on the same element will still run.
         document.querySelector("form").addEventListener('click', (e) => {
             console.log('Form capturing');
