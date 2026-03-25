@@ -70,6 +70,8 @@
 
         const doSomeMagic = (fn, d) => {
             return () => {
+               let context = this, 
+                args = arguments
                setTimeout(() => {
                 getData.apply()
                }, d)
