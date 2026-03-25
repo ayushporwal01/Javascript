@@ -20,3 +20,8 @@ console.log(sum)
 const ele = nums.find(x => x > 2) 
 console.log(ele)
 
+//findIndex - returns the index of the specified element
+
+const ele = nums.find(x => x > 2) 
+console.log(ele)
+
