@@ -2,6 +2,7 @@
 
 const nums = [1, 2, 3, 4, 5]
 const name = "leon.s.kennedy"
+const str = "graceashcroft"
 
 const doubled = nums.map(num => num * 2)
 console.log(doubled)
@@ -42,7 +43,7 @@ console.log(splitted)
 console.log(name)
 
 //join - Creates and returns a new string by concatenating all elements of an array.
-const joined = name.split("").join("-") 
+const joined = str.split("").join("-") 
 console.log(joined)
 console.log(name)
 
