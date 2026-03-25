@@ -45,8 +45,8 @@
       
 
         //Methods - stops the events from bubbling or capturing the DOM tree.
-        
-        //Stop Propagation - other event listeners on the same element will still run.
+
+        //1. Stop Propagation - other event listeners on the same element will still run.
         document.querySelector("form").addEventListener('click', (e) => {
             console.log('Form capturing');
         }, true)
@@ -67,7 +67,7 @@
         //     console.log('P bubbling');
         // }, false)
       
-        //Stop Immediate Propagation - Stops all other listeners on the same element from running.
+        //2. Stop Immediate Propagation - Stops all other listeners on the same element from running.
         // const para = document.querySelector('p')
       
         // para.addEventListener('click', (e) => {
