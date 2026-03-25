@@ -70,14 +70,11 @@
 
         const doSomeMagic = (fn, d) => {
             let timer;
-            return () => {
-               let context = this, 
-                args = arguments;
-               
+            return (...args) => {
                clearTimeout(timer);
 
                timer = setTimeout(() => {
-                fn.apply(context, arguments);
+                fn(...args);
                }, d);
             }
         }
