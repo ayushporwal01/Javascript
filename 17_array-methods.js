@@ -14,3 +14,9 @@ console.log(oddNums)
 
 const sum = nums.reduce((acc, num) => acc + num, 0) 
 console.log(sum)
+
+//reduce - reduce the entire array to one single value.
+
+const ele = nums.find(x => x > 2) 
+console.log(sum)
+
