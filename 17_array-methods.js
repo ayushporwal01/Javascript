@@ -15,7 +15,7 @@ console.log(oddNums)
 const sum = nums.reduce((acc, num) => acc + num, 0) 
 console.log(sum)
 
-//find - returns the first element that satisfies the condition
+//find - returns the first element that satisfies the condition.
 
 const ele = nums.find(x => x > 2) 
 console.log(ele)
