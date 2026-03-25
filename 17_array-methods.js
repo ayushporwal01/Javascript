@@ -23,5 +23,5 @@ console.log(ele)
 //findIndex - returns the first index of the element that satisfies the condition.
 
 const index = nums.findIndex(x => x == 2) 
-console.log(ele)
+console.log(index)
 
