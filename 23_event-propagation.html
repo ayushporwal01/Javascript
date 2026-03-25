@@ -41,7 +41,7 @@
         //     console.log('P bubbling');
         // }, false)
       
-        //Stop Propagation - other events on the same element will still run.
+        //Stop Propagation - other event listeners on the same element will still run.
         document.querySelector("form").addEventListener('click', (e) => {
             console.log('Form capturing');
         }, true)
