@@ -30,3 +30,7 @@ console.log(index)
 const extracted = name.slice(0, -1) 
 console.log(extracted)
 
+//split - extract a section of string and return a new string with extracted elements.
+const splitted = name.slice(0, -1) 
+console.log(splitted)
+
