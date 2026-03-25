@@ -35,3 +35,9 @@ const spliced = nums.splice(3)
 console.log(spliced)
 console.log(nums)
 
+//splice - Divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array. 
+//It does not change the original string.
+const splitted = nums.split(3) 
+console.log(spliced)
+console.log(nums)
+
