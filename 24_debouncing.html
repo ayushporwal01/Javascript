@@ -73,7 +73,7 @@
             return () => {
                let context = this, 
                 args = arguments
-                clearTimeout(timer);
+               clearTimeout(timer);
 
                timer = setTimeout(() => {
                 getData.apply(context, arguments);
