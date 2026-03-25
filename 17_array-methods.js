@@ -27,6 +27,6 @@ const index = nums.findIndex(x => x == 2)
 console.log(index)
 
 //slice - extract a section of string and return a new string with extracted elements.
-const extracted = name.slice(0, 1) 
+const extracted = name.slice(0, -1) 
 console.log(extracted)
 
