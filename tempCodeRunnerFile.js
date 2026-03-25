@@ -1,3 +1,2 @@
-const joined = name.join("-") 
-console.log(joined)
-console.log(name)
+
+console.log(str)
