@@ -30,7 +30,7 @@ console.log(index)
 const extracted = name.slice(0, -1) 
 console.log(extracted)
 
-//splice - Returns an array with extracted elements within the specified range by modifying the original array.
+//splice - Returns a new array with extracted elements and modifies the original array.
 const spliced = nums.splice(3) 
 console.log(spliced)
 console.log(nums)
