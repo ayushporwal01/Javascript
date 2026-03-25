@@ -26,11 +26,11 @@ console.log(ele)
 const index = nums.findIndex(x => x == 2) 
 console.log(index)
 
-//slice - extract a section of string and return a new string with extracted elements.
+//slice - Returns a new string with elements in the specified range excluding the last element.
 const extracted = name.slice(0, -1) 
 console.log(extracted)
 
-//split - extract a section of string and return a new string with extracted elements.
+//splice - extract a section of string and return a new string with extracted elements.
 const splitted = name.split(0, -1) 
 console.log(splitted)
 
