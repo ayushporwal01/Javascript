@@ -41,3 +41,8 @@ const splitted = name.split(".")
 console.log(splitted)
 console.log(name)
 
+//join - Divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array. 
+const joined = name.split(".") 
+console.log(joined)
+console.log(name)
+
