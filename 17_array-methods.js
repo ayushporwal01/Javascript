@@ -43,7 +43,7 @@ console.log(splitted)
 console.log(name)
 
 //join - Creates and returns a new string by concatenating all elements of an array.
-const joined = str.slice().join(" ") 
+const joined = str.slice(0, 5) + " " + str.slice.join(" ") 
 console.log(joined)
 console.log(str)
 
