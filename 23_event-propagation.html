@@ -41,7 +41,9 @@
         //Event Delegation - A technique that uses a single event listener on a parent element to manage events for 
         //all its current and future child elements
 
-        formEle.
+        formEle.addEventListener('click', (e) => {
+            
+        })
 
 
         //Event Bubbling(default) - Event travels from target element to root element.
@@ -79,7 +81,7 @@
         //     console.log('P bubbling');
         // }, false)
       
-        
+
         //2. Stop Immediate Propagation - Stops all other listeners on the same element from running.
         // paraEle.addEventListener('click', (e) => {
         //     e.stopImmediatePropagation()
