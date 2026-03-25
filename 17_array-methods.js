@@ -37,7 +37,7 @@ console.log(nums)
 
 //split - Divides a string into an ordered list of substrings, puts these substrings into an array, and returns the array. 
 //It does not change the original string.
-const splitted = nums.split(3) 
+const splitted = name.split(3) 
 console.log(splitted)
 console.log(name)
 
