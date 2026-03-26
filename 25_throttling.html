@@ -42,6 +42,7 @@
         const expensive = () => {
             console.log("button clicked!")
         }
+        
         btn.addEventListener('click', betterExpensive)
 
         const betterExpensive = throttle(expensive, 500)
