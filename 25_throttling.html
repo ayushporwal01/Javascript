@@ -39,9 +39,12 @@
     <script>
         const btn = document.querySelector('button')
 
-        btn.addEventListener('click', () => {
+        const expensive = () => {
             console.log("button clicked!")
-        })
+        }
+        btn.addEventListener('click', betterExpensive)
+
+        const betterExpensive = throttle(expensive, 500)
     </script>
 </body>
 </html>
