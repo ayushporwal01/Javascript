@@ -44,7 +44,9 @@
         }
 
         const throttle = (fn, limit) => {
-
+            return () => {
+                fn()
+            }
         }
 
         const betterExpensive = throttle(expensive, 500)
