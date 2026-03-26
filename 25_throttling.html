@@ -45,7 +45,8 @@
 
         const throttle = (fn, limit) => {
             let flag = true;
-            return () => {
+
+            return function(...args) => {
                 if(flag) {
                     fn()
                     flag = false;
