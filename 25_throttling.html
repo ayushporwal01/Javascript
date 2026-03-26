@@ -44,8 +44,15 @@
         }
 
         const throttle = (fn, limit) => {
+            let flag = true;
             return () => {
-                fn()
+                if(flag) {
+                    fn()
+                    flag = false;
+                    setTimeout(() = > {
+                       flag = true;
+                    }, limit)
+                }
             }
         }
 
