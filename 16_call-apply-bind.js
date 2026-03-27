@@ -26,5 +26,6 @@ let printFullName = function(hometown, state) {
 printFullName.call(name, "Indore", "Madhya Pradesh")
 printFullName.apply(name, ["Indore", "Madhya Pradesh"])
 
+//returns a copy of a func that can be called later
 let printMyName = printFullName.bind(name, "Indore", "Madhya Pradesh")
 printMyName()
