@@ -28,3 +28,5 @@ let multiply = function(x, y) {
 
 let multiplyByTwo = multiply.bind(this, 2, 3);
 multiplyByTwo(5);
+
+//Using Closures
