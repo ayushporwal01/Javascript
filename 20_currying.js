@@ -13,11 +13,11 @@ multiplyByTwo(5);
 
 let add = function(a) {
     return function(b) {
-        console.log(a * b)
+        console.log(a + b)
     }
 }
 
-add(2, 3)
+let addWithFive = add(2)
 
 //Arrow Function
 
