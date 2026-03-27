@@ -1,5 +1,5 @@
 /*Shadowing - when an inner scope variable has the same name as an outer scope variable. 
-The inner variable temporarily hides or overrides the outer scope variable inside its scope.*/
+The inner variable temporarily hides or overrides the outer scope variable.*/
 
 let a = 10
 
