@@ -6,16 +6,10 @@
 //Arguments are passed individually
 //Returns Nothing
 
-const person = {
-  name: "Rahul"
-};
-
-function greet(age) {
-  console.log("Hello " + this.name + ", age " + age);
+let name = {
+  firstName: "Ayush",
+  lastName: "Porwal"
 }
-
-greet.call(person, 21);
-
 
 //2. apply - Invokes a func with a specified this value and arguments passed as an array.
 
