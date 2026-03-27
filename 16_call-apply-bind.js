@@ -23,11 +23,7 @@ printFullName.call(name, "Indore", "Madhya Pradesh")
 //   name: "Rahul"
 // };
 
-// function greet2(age, city) {
-//   console.log(this.name + " is " + age + " from " + city);
-// }
-
-// greet2.apply(person2, [21, "Delhi"]);
+// name2.apply(person2, [21, "Delhi"]);
 
 
 //3. bind - Returns a new function with a fixed this context that can be called later.
