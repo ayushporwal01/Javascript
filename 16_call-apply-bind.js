@@ -6,7 +6,7 @@
 //Arguments are passed individually
 //Returns Nothing
 
-//2. apply - same as call but arguments passed in a list.
+//2. apply - same as call but arguments passed in a list(array).
 
 //3. bind - Returns a new function with a fixed this context that can be called later.
 //Doesn't run immediately
