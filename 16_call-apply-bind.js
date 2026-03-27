@@ -22,6 +22,7 @@ let printFullName = function(hometown, state) {
   console.log(this.firstName + " " + this.lastName + " from " + hometown + ", " + state)
 }
 
+//function borrowing
 printFullName.call(name, "Indore", "Madhya Pradesh")
 printFullName.apply(name, ["Indore", "Madhya Pradesh"])
 printFullName.bind(name, ["Indore", "Madhya Pradesh"])
