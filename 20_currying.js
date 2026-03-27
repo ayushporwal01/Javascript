@@ -27,4 +27,4 @@ let multiply = function(x, y) {
 }
 
 let multiplyByTwo = multiply.bind(this, 2);
-multiplyByTwo(2);
+multiplyByTwo(5);
