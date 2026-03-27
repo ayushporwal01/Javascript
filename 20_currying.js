@@ -17,7 +17,7 @@ let add = function(a) {
     }
 }
 
-console.log(add(2)(3))
+add(2, 3)
 
 //Arrow Function
 const add2 = a => b => a + b;
