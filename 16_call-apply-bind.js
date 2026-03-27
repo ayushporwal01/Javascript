@@ -19,15 +19,15 @@ printFullName.call(name, "Indore", "Madhya Pradesh")
 
 //2. apply - Invokes a func with a specified this value and arguments passed as an array.
 
-const person2 = {
-  name: "Rahul"
-};
+// const person2 = {
+//   name: "Rahul"
+// };
 
-function greet2(age, city) {
-  console.log(this.name + " is " + age + " from " + city);
-}
+// function greet2(age, city) {
+//   console.log(this.name + " is " + age + " from " + city);
+// }
 
-greet2.apply(person2, [21, "Delhi"]);
+// greet2.apply(person2, [21, "Delhi"]);
 
 
 //3. bind - Returns a new function with a fixed this context that can be called later.
@@ -35,14 +35,14 @@ greet2.apply(person2, [21, "Delhi"]);
 //Returns a new function
 //You call it later
 
-const person3 = {
-  name: "Rahul"
-};
+// const person3 = {
+//   name: "Rahul"
+// };
 
-function greet3() {
-  console.log("Hello " + this.name);
-}
+// function greet3() {
+//   console.log("Hello " + this.name);
+// }
 
-const greetPerson = greet3.bind(person3);
+// const greetPerson = greet3.bind(person3);
 
-greetPerson();
+// greetPerson();
