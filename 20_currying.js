@@ -1,5 +1,5 @@
 /*Currying is transforming a function that takes multiple arguments into a 
-sequence of nested functions, each taking single argument.*/
+sequence of nested functions, each taking a single argument.*/
 
 //Using bind
 let multiply = function(x, y) {
