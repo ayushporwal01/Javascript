@@ -20,8 +20,4 @@ let add = function(a) {
 add(2, 3)
 
 //Arrow Function
-let add2 = () => a => b => a + b;
-add2(5, 6)
 
-//a = 2 is fixed now
-const add3 = a => b => c => a + b + c;
