@@ -21,6 +21,7 @@ add(2, 3)
 
 //Arrow Function
 let add2 = () => a => b => a + b;
+add2(5, 6)
 
 
 
