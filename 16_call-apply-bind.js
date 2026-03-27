@@ -15,6 +15,8 @@ let printFullName = function(hometown, state) {
   console.log(this.firstName + " " + this.lastName + " from " + hometown + ", " + state)
 }
 
+printFullName.call(name, "Indore", "Madhya Pradesh")
+
 //2. apply - Invokes a func with a specified this value and arguments passed as an array.
 
 const person2 = {
