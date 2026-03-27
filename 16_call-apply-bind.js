@@ -6,6 +6,14 @@
 //Arguments are passed individually
 //Returns Nothing
 
+//2. apply - Invokes a func with a specified this value and arguments passed as an array.
+
+//3. bind - Returns a new function with a fixed this context that can be called later.
+//Doesn't run immediately
+//Returns a new function
+//You call it later
+
+
 let name = {
   firstName: "Ayush",
   lastName: "Porwal"
@@ -17,28 +25,3 @@ let printFullName = function(hometown, state) {
 
 printFullName.call(name, "Indore", "Madhya Pradesh")
 
-//2. apply - Invokes a func with a specified this value and arguments passed as an array.
-
-// const person2 = {
-//   name: "Rahul"
-// };
-
-// name2.apply(person2, [21, "Delhi"]);
-
-
-//3. bind - Returns a new function with a fixed this context that can be called later.
-//Doesn't run immediately
-//Returns a new function
-//You call it later
-
-// const person3 = {
-//   name: "Rahul"
-// };
-
-// function greet3() {
-//   console.log("Hello " + this.name);
-// }
-
-// const greetPerson = greet3.bind(person3);
-
-// greetPerson();
