@@ -1,2 +1,5 @@
+.log(x * y)
+}
 
-console.log(str)
+let multiplyByTwo = multiply.bind(this, 2);
+multiplyByTwo(5);

@@ -28,3 +28,4 @@ let multiply = function(x, y) {
 
 let multiplyByTwo = multiply.bind(this, 2);
 multiplyByTwo(5);
+multiplyByTwo(2, 3);
