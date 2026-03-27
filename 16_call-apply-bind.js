@@ -6,7 +6,7 @@
 //Arguments are passed individually
 //Returns Nothing
 
-//2. apply - Invokes a func with a specified this value and arguments passed as an array.
+//2. apply - same as call but arguments passed in a list.
 
 //3. bind - Returns a new function with a fixed this context that can be called later.
 //Doesn't run immediately
