@@ -23,5 +23,5 @@ let printFullName = function(hometown, state) {
 }
 
 printFullName.call(name, "Indore", "Madhya Pradesh")
-printFullName.apply(name, "Indore", "Madhya Pradesh")
+printFullName.apply(name, ["Indore", "Madhya Pradesh"])
 
