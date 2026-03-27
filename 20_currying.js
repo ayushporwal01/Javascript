@@ -17,7 +17,7 @@ let add = function(a) {
     }
 }
 
-let addWithFive = add(2)
+let addWithFive = add(5)
 
 //Arrow Function
 
