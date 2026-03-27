@@ -27,4 +27,4 @@ printFullName.call(name, "Indore", "Madhya Pradesh")
 printFullName.apply(name, ["Indore", "Madhya Pradesh"])
 
 let printMyName = printFullName.bind(name, ["Indore", "Madhya Pradesh"])
-printMyName();
+printMyName()
