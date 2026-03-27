@@ -20,9 +20,8 @@ let add = function(a) {
 add(2, 3)
 
 //Arrow Function
-const add2 = a => b => a + b;
-console.log(add2(2)(3)); 
-console.log(add2(5)(6)); 
+let add2 = () => a => b => a + b;
+
 
 
 //a = 2 is fixed now
