@@ -19,6 +19,3 @@ let add = function(a) {
 
 let addWithFive = add(5)
 addWithFive(6)
-
-//Arrow Function
-
