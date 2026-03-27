@@ -13,7 +13,6 @@
 //Returns a new function
 //You call it later
 
-
 let name = {
   firstName: "Ayush",
   lastName: "Porwal"
