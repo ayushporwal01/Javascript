@@ -10,7 +10,6 @@ let multiplyByTwo = multiply.bind(this, 2, 3);
 multiplyByTwo(5);
 
 //Using Function Closures
-
 let add = function(a) {
     return function(b) {
         console.log(a + b)
